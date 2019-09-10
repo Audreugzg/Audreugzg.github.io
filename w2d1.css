@@ -1,0 +1,70 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Chilanka', cursive;
+}
+
+nav{
+  background-image: url("123.jpg");
+  background-repeat: round;
+
+}
+
+section{
+  background-color: gray;
+  margin:0;
+}
+
+#name {
+  margin:0;
+  padding: 120px;
+  font-size: 150px;
+  color: white;
+}
+
+#b1{
+  margin:90px;
+  border: 0;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  background-image: url("123.jpg");
+}
+#Aboutme{
+  color: green;
+  font-size: 60px;
+}
+#Skills{
+  color: blue;
+  font-size: 60px;
+}
+
+#workex{
+  color:red;
+  font-size: 60px;
+}
+
+#projects{
+  color:purple;
+  font-size: 60px;
+}
+
+#contactme{
+  color:orange;
+  font-size: 60px;
+}
+
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+}
+
+h3{
+  display:flex;
+  justify-content:center;
+}
+
+ul{
+  display:flex;
+  justify-content:space-around;
+}
