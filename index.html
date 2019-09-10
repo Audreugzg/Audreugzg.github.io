@@ -1,354 +1,110 @@
-<!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js">
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--[if lt IE 9]> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-<title>Home</title>
-<meta name="description" content="">
-<meta name="author" content="ChinaZ">
-<!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/da-slider.css" />
-<link rel="stylesheet" href="css/styles.css" />
-<!-- Font Awesome -->
-<link href="css/font-awesome.min.css" rel="stylesheet">
-</head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Audrey's Resume</title>
+    <link rel="stylesheet" href="w2d1.css">
+    <link href="https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower|PT+Sans|Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
-<body>
-<header class="header">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        </div>
-      <!--/.navbar-header-->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" id="mainNav">
-          <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-          <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
-          <li><a href="#skills" class="scroll-link">Skills</a></li>
-          <li><a href="#experience" class="scroll-link">Projects/Experience</a></li>
-         <!-- <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>-->
-          <li><a href="#contactUs" class="scroll-link">Contact Me</a></li>
-        </ul>
-      </div>
-      <!--/.navbar-collapse--> 
+    <!-- <nav>
+      <h1 id="name"> Audrey's Resume </h1>
+      <button type="button" name="button"><a href="#About Me" id="b1">About Me</a></button>
+      <button type="button" name="button"><a href="#Skills">Skills</a></button>
+      <button type="button" name="button"><a href="#workex">Work Experiences</a></button>
+      <button type="button" name="button"><a href="#projects">Projects</a></button>
+      <button type="button" name="button"><a href="#contact me">Contact Me</a></button>
+    </nav> -->
+
+    <nav>
+      <h1 id="name"> Audrey's Resume </h1>
+      <a href="#About Me" id="b1">About Me</a>
+      <a href="#Skills" id="b1" >Skills</a>
+      <a href="#workex" id="b1" >Work Experiences</a>
+      <a href="#projects" id="b1" >Projects</a>
+      <a href="#contact me" id="b1">Contact Me</a>
     </nav>
-    <!--/.navbar--> 
-  </div>
-  <!--/.container--> 
-</header>
-<!--/.header-->
-<div id="#top"></div>
-<section id="home">
-  <div class="banner-container"> <img src="images/banner-bg.jpg" alt="banner" />
-    <div class="container banner-content"> 
-            <div class="row">
-                <header class="centered">
-                    <h1>Audrey Gao</h1>
-                    <p>Computer Engineering student</p>
-                </header>
-                <div class="social-icons">
-                        <a href="mailto:gaoz6@mcmaster.ca"><i class="fa fa-envelope"></i></a>
-                        <a href="https://github.com/Audreugzg"><i class="fa fa-github-alt"></i></a>
-                        <a href="https://www.linkedin.com/in/audrey-gao-93026a116/"><i class="fa fa-linkedin-square"></i></a>
-                </div>
-                    
-            </div> 
-  </div>
 
-<!--About-->
-<section id="aboutUs">
-  <div class="container">
-    <div class="row"> 
-      <!-- item -->
-      <div class="col-md-4 tileBox"> <img src="images/me.jpg" alt="me"/> </div>
-      <div class="col-md-8 tileBox">
-        <div class="txtHead">
-          <h2>Hello, I am Audrey Gao...</h2>
-          <h3> 3rd year computer engineering student at McMaster University</h3>
-        </div>
-        <p>I have a great interest in software, during my free time I like to learn new programming languages and practice old ones by programming little projects for myself.<br/>
-          <br/>
-          If you would like to know a bit more about me, this website shows some of my previous projects and experience, as well as my contact infomation.</p>
-      </div>
-      <!-- end: --> 
-    </div>
-  </div>
-</section>
-<!--Quote-->
-<section id="quote" class="bg-parlex">
-  <div class="parlex-back">
-    <div class="container">
-     <div class="row">
-	<div class="col-md-12">      <h2>“Dreams are extremely important. You can’t do it unless you imagine it.” <span>-George Lucas</span></h2></div>
-      </div>
-    </div>
-    <!--/.container--> 
-  </div>
-</section>
+    <section class="info-section">
+      <h3 id="Aboutme"> About Me</h3>
+      <article>
+        <img src="ironman.jpeg" height="500" width="800" >
+        <p class="color-blue"> Hello my name is Audrey </p>
+      </article>
+    </section>
 
-<!--Skills-->
-<section id="skills" class="secPad white">
-  <div class="container">
-    <div class="heading "> 
-      <!-- Heading -->
-      <h2>My Skills</h2>
-      <p>My Software skills are gained through both self-interst and school project. Also, as an ECE student at McMaster University I have basic knowledge about electrical engineering.Having taken many computer engineering courses, I have also gained a solid fundation of knowledge about computer and digital hardware. </p>
-    </div>
-    <div class="row skillContainer">
-      <div class="col-md-4 skillBox">
-        <div id="diagram-id-1" class="diagram" data-percent="85%"></div>
-        <div class="chart-text">
-          <h4>FPGA</h4>
-          <p>with hand on project experience</p>
-        </div>
-      </div>
-      <div class="col-md-4 skillBox">
-        <div id="diagram-id-2" class="diagram" data-percent="75.2%"></div>
-        <div class="chart-text">
-          <h4>C</h4>
-          <p>self-interest and project</p>
-        </div>
-      </div>
-      <div class="col-md-4 skillBox">
-        <div id="diagram-id-3" class="diagram" data-percent="85.6%"></div>
-        <div class="chart-text">
-          <h4>Python</h4>
-          <p>with hand on project experience and self-interest</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <h4>Other Skills</h4>
-        <p class="mrgBtm20"> 
-		<ul>
-						<li>Excellent written and oral communication skills, developed while completing various projects, such as the hardware implementation of an image processor, and the 3D modeling design.</li>
-						<li>Interpersonal skills strengthened, through collaboration on team assignments and with co-workers to ensure high quality work.</li>
-						<li>Cultivated problem solving skills when completing projects, through the resolution of design flaws discovered when implementing code by using debugging and troubleshooting procedures.</li>
-						<li>In addition, I possess outstanding time-management skills and work well in team-driven environments.</li>
-					</ul>
-		 </p>
-      </div>
-      <div class="col-sm-6"> <br/>
-        <br/>
-        <br/>
-        <div class="row">
-          <div class="col-md-2 skilltitle"><b>HTML5</b></div>
-          <div class="col-md-10">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"> <span class="sr-only">80% Complete</span> </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 skilltitle"><b>Economics</b></div>
-          <div class="col-md-10">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"> <span class="sr-only">70% Complete</span> </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 skilltitle"><b>Microsoft Office</b></div>
-          <div class="col-md-10">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"> <span class="sr-only">90% Complete</span> </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 skilltitle"><b>Communication skill</b></div>
-          <div class="col-md-10">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"> <span class="sr-only">72% Complete</span> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-<!--Experience-->
-<section id="experience" class="secPad">
-<div class="wrapper container">
-<section id="eudcation-section" class="education-section section">
-		<h2>Projects</h2>
-		<div class="row">
-			<div class="item col-xs-12 col-sm-4">
-				<div class="item-inner">
-					<h3 class="degree">3D Modeling Design</h3>
-					<div class="time">2013</div>
-					<div class="desc">
-					<ul>
-						<li>Developed a great train for a CD-ROM drive head reader.</li>
-						<li>Utilized rapid prototyping technologies and accumulated 3D Modeling, AutoCAD,
-						Autodesk Inventor and MapleSim skills to the effectiveness of the project.</li>
-					</ul>
-						
-						
-					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item col-xs-12 col-sm-4">
-				<div class="item-inner">
-					<h3 class="degree">Microcontoller ADC Signal Processor</h3>
-					<div class="time">2015</div>
-					<div class="desc">
-					<ul>
-						<li>Developed an oscilloscope implemented by a microcontroller and circuit using C, assembly language and Matlab.</li>
-						<li>Completed project with minimal instruction and displayed strong independent research and problem solving skills</li>
-					</ul>
-						
-					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item col-xs-12 col-sm-4">
-				<div class="item-inner">
-					<h3 class="degree">FPGA-Image Decompressor Hardware Implementation </h3>
-		
-					<div class="time">2016</div>
-					<div class="desc">
-					<ul>
-						<li>Implemented algorithm for custom image compression revision in hardware. Compressed data for a 320x240 pixel image were transferred to Altera DE2 board via UART interface and stored in the SRAM.</li>
-						<li>The designed digital circuits would perform Dequantization, Inverse Signal Transform, Interpolation and Colour- space Conversion.</li>
-						<li> Implemented data structure/ algorithm for image computation.</li>
-					</ul>	
-					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
-		</div><!--//row-->
-	</section><!--//section-->
-	
-	<section id="experiences-section" class="experiences-section section">
-		<h2 class="section-title">Work/volunteer Experiences</h2>
-		<div class="timeline">
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">Korean Pop Culture Club </h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>McMaster University</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Event Coordinator</div>
-					<div class="time">5/2015 - 8/2016</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Responsible for the creation, organization and facilitation of club events. Worked alongside other executive members within the club in the research, planning and successful facilitation of a competition styled event of approximately 50 participants.</p> 
-					
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">South China Chinese Food</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Hamilton</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Front Desk</div>
-					<div class="time">1/2015 - 10/2016</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Greeted customers and communicated effectively to determine order. Serviced customers’ requests and complaints and ensured any serious complaints were brought to the notice of management. Took payments and tendered change. </p> 
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">Market Wise</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Woodbridge</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Shipping and Receiving </div>
-					<div class="time">6/2013 - 9/2015</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Checked for damaged goods and verified quantity and quality of orders. Verified items received with purchase order; wrapped, packaged, and shipped supplies. Responsible for delivering and retrieving supplies to and from work.</p> 
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-			
-		</div><!--//timeline-->
-		
-	</section><!--//section-->
-
-	
-	
-</section>	
-	
-	
-		
-		
-		
-
-	
-	
+    <section class="info-section">
+      <h3 id="Skills">Skills</h3>
+      <p class="color-blue">
+        My Skills
+        <ul>
+          <li>HTML <meter max="10" value="2"> </li>
+          <li>CSS <meter max="10" value="4"> </li>
+          <li>Python <meter max="10" value="6"> </li>
+          <li>Verilog <meter max="10" value="8"> </li>
+        </ul>
+      </p>
+    </section>
 
 
 
 
-<!--Contact -->
-<section id="contactUs" class="page-section secPad">
-  <div class="container">
-    <div class="row">
-      <div class="heading"> 
-        <!-- Heading -->
-        <h2>Let's Keep In Touch!</h2>
-        <p>Thank you for visiting my profile. If you would like to get into contact with me, I can be reached by the information form below.</p>
-      </div>
-    </div>
-    
-      <div class="col-sm-4">
-        <h4>Address:</h4>
-        <address>
-        3701-100 Main St East<br>
-        Hamilton ,ON<br>
-        </address>
-        <h4>Phone:</h4>
-        <address>
-        905-920-2883<br>
-        </address>
-		<h4>email:</h4>
-		gaoz6@mcmaster.ca<br>
-      </div>
-    </div>
-  </div>
-  <!--/.container--> 
-</section>
+    <section>
+      <h3 id="workex"> Work Experiences </h3>
+      <article>
+        <h4>Service Desk Specilist(2017-2018) CIBC,Toronto,ON</h4>
+        <p>Provided hands-on support in identifying product and service bugs by working with internal support teams
+           and the customers to effectively analyze the issue and implement solutions. Maximized customer satisfaction
+           by supporting multiple lines of business through exceptionally responding and following up to client needs
+           relating to systems infrastructure and service delivery requests. Promoted a cohesive team environment
+           throughout all levels of the help desk by escalating complex issues to next level of support in the hierarchy.
+           Maintained an accurate record of client queries, escalations, and follow-ups.</p>
+      </article>
+      <article>
+        <h4>Event Coordinator(2015-2017) KPC club(McMaster University),Hamilton,ON</h4>
+        <p>Organized successful club events by liaising with management and staff on all aspect of event management
+           through pro-actively designing, planning, and coordinating strategies. Provided a pleasant and cheerful
+           environment during events by pre-planning all facets of club events in an exceptional manner.</p>
+      </article>
+      <article>
+        <h4>Front Desk (2014 – 2016) South China Chinese Food, Hamilton, ON</h4>
+        <p>Attracted new customers and obtained positive reviews by greeting guests in a pleasant manner and
+           processing payments promptly. Ensured customer retention by timely escalating issues.</p>
+      </article>
+    </section>
+
+    <section>
+      <h3 id="projects">Projects</h3>
+      <article>
+        <h4>FPGA – Image De-compressor Hardware Implementation</h4>
+        <p>Compressed data for a 320x240 pixel image delivered to the Altera DE2 board via universal
+           asynchronous receiver / transmitter (UART) interface from PC and stored in external SRAM.
+           Image decoding circuitry read compressed data, recovered image using a custom digital circuit, and stored it
+           back to the SRAM, where the video VGA controller reads and displays it to monitors.</p>
+      </article>
+      <article>
+        <h4>Microcontroller ADC Signal Processor</h4>
+        <p>Utilized C, assembly language, and Matlab while developing an oscilloscope, implemented by a
+           microcontroller and circuit. Ensured completion of project with minimal instruction and demonstrated strong
+           independent research and problem solving skills.</p>
+      </article>
+      <article>
+        <h4><strong>Template Matching System<strong></h4>
+        <p>Compared statistical features (variance and gradient) on the template with each patch of the input image
+           using Matlab. Output the patch with the most similar features.</p>
+      </article>
+    </section>
+
+    <section>
+      <h3 id="contactme">Contact Me</h3>
+      <p>if you interest you can <strong>contact me</strong> through <em>email or phone</em>
+      </p>
+      <a href="mailto:audreygaozu@hotmail.com"></a>
+      <button type="button" name="button"><a href="mailto:audreygaozu@hotmail.com">Email Me</a></button>
+      <button type="button" name="button"><a href="tel:+6046186025">Call Me</a></button>
+    </section>
 
 
-
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
-<script src="js/modernizr-latest.js"></script> 
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap.min.js" type="text/javascript"></script> 
-<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
-<script src="js/jquery.nav.js" type="text/javascript"></script> 
-<script src="js/jquery.cslider.js" type="text/javascript"></script> 
-<script src="js/jquery.diagram.js"></script> 
- <script src="contact/jqBootstrapValidation.js"></script>
- <script src="contact/contact_me.js"></script>
-<script src="js/custom.js" type="text/javascript"></script> 
-<script src="js/owl-carousel/owl.carousel.js"></script>
-</body>
+  </body>
 </html>
